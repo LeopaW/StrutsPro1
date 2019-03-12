@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <!--配置动态方法调用是否开启常量
+            默认是关闭的，需要开启
+    -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+
+    <package name="dynamic" namespace="/dynamic" extends="struts-default">
+        <!--struts2.5之后要添加此属性才能访问action,方法名以逗号隔开，或使用正则匹配-->
+        <!--<global-allowed-methods>regex:.*</global-allowed-methods>-->
+        <!--动态方法调用方式2：统配符方式
+            使用{1}取出第一个星号通配的内容
+        -->
+        <action name="Demo1Action" class="b_dynamic.Demo1Action" method="add">
+            <result name="success">/hello.jsp</result>
+        </action>
+    </package>
+
+</struts>

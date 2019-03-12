@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+
+    <package name="default" namespace="/default" extends="struts-default">
+        <!--找不到包下的action，会使用Demo2Action作为默认action-->
+        <default-action-ref name="Demo2Action"></default-action-ref>
+        <!--method属性：默认是execute-->
+        <!--result的name属性：默认是success-->
+        <!--result的type属性：默认是dispatcher-->
+        <!--class属性：默认是com.opensymphony.xwork2.ActionSupport-->
+        <action name="Demo2Action" class="c_default.Demo2Action">
+            <result>/hello.jsp</result>
+        </action>
+
+    </package>
+
+</struts>
