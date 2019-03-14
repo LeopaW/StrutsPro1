@@ -1,19 +1,21 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Leopa
-  Date: 2019/3/11
-  Time: 15:45
+  Date: 2019/3/14
+  Time: 14:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title></title>
+    <title>show</title>
 </head>
 <body>
+    <c:forEach var="customer" items="${list}">
+       <TD> ${customer.username}</TD>
+    </c:forEach>
 
-       request:${requestScope.name}<br>
-       session:${sessionScope.name}<br>
-       application:${applicationScope.name}<br>
+
 </body>
 </html>

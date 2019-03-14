@@ -44,4 +44,5 @@
     <include file="\e_result\struts.xml"></include>
     <include file="\f_servletAPI\struts.xml"></include>
     <include file="\g_param\struts.xml"></include>
+    <include file="\web\struts.xml"></include>
 </struts>

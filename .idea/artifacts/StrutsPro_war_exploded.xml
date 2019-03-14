@@ -9,6 +9,19 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Struts 2" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/jandex-2.0.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/standard.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/hibernate-commons-annotations-5.0.1.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/mysql-connector-java-5.1.7-bin.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/hibernate-core-5.0.7.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/jboss-logging-3.3.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/jstl-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java开发所有jar包/javaweb/hibernate/geronimo-jta_1.1_spec-1.1.1.jar" />
         </element>
       </element>
     </root>
