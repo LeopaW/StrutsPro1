@@ -37,11 +37,19 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 
         List<Customer> list = cs.getAll(dc);
 
-        session.put("list",list);
+        System.out.println(list);
+        //session.put("list",list);
+
+        //ServletActionContext.getRequest().setAttribute("list",list);
+
+        //1.放到栈顶(不建议)
+        //2.放到ActionContext(主流)
+        ActionContext.getContext().put("list",list);
+
         return "list";
     }
 
-    @Override
+
     public Customer getModel() {
         return customer;
     }

@@ -12,6 +12,10 @@
             <result name="toList" type="redirectAction">
                 <param name="actionName">CustomerAction_list</param>
                 <param name="namespace">/</param>
+                <!--重定向传参，如果添加的参数struts“看不懂”，就会作为参数附加重定向路径后面
+                    如果附加的参数是动态的可以用${}包裹ognl表达式，动态取值。
+                -->
+                <param name="username">${username}</param>
             </result>
         </action>
     </package>
